@@ -1,0 +1,36 @@
+/*Body*/
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*Header*/
+
+header{
+    text-align: center;
+    background-color: black;
+}
+
+header h1{
+    padding-top: 20px;
+    color: white;
+}
+
+header p{
+    color: white;
+    padding-bottom: 20px;
+}
+/*Contenidos-Header*/
+
+
+/*Main*/
+main{
+    padding-left: 500px;
+    padding-right: 500px;
+    display: block;
+    align-items: center;
+}
+
+/*Palabras*/
+
