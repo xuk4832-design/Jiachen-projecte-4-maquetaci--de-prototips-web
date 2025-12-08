@@ -47,7 +47,7 @@ main{
 
 .container{
     background-color: rgb(255, 255, 255);
-    border: solid;
+    border: 1px solid;
     border-radius: 10px;
     width: 290px;
     height: 290px;
@@ -56,8 +56,7 @@ main{
     text-align: center;
     flex-direction: column;
     justify-content: end;
-    transition: 0.3s ease;
-    overflow: clip;
+
 }
 
 .container p{
@@ -79,7 +78,5 @@ main{
 .container img{
     width: 260px;
     height: 210px;
-    border: solid rgb(109, 109, 109);
     object-fit: contain;
-    border-radius: 10px;
 }
