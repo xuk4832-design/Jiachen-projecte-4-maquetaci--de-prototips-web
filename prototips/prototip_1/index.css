@@ -1,19 +1,27 @@
 /*Body*/
 
 body{
-    margin: 30px;
+    margin: 0px;
     font-family: "Inter", sans-serif;
+    background-color: gray;
+    justify-content: center;
+    display: flex;
 }
 
-/*Title*/
+/*Caja*/
 
-.titulo{
+.caja{
+    background-color: white;
+    width: 1400px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     text-align: center;
     align-items: center;
+    justify-content: center;
 }
+
+
+/*Title*/
 
 .container{
 
