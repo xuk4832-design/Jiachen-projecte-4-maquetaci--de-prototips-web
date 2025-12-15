@@ -1,20 +1,22 @@
 /*Body*/
 
 body{
-    margin: 20px;
     align-items: center;
     background-color: gray;
-    padding-left: 200px;
-    padding-right: 200px    ;
+    padding-left: 300px;
+    padding-right: 300px    ;
 }
 /*Sections*/
 
 section{
-    flex-wrap: wrap;
+    align-items: center;
+    width: 1300px;
+    height: 600px;
     display: flex;
-    padding-top: 80px;
+    flex-wrap: wrap;
+    padding-top: 50px;
     justify-content: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     background-color: white;
 }
 /*Imagenes*/
@@ -31,7 +33,7 @@ button{
     background-color: black;
     color: #fff;
     padding: 12px 24px;
-    border-radius: 8px;
+    border-radius: 18px;
     font-size: 16px;
 }
 
@@ -40,25 +42,36 @@ button{
 .titulo{
     font-size: 25px;
     width: 400px;
+    height: 500px;
+}
+
+/*Palabras*/
+
+.titulo-abajo{
+    color: rgb(184, 184, 184);
+    font-family: sans-serif;
+    font-weight: 10px;
+    font-size: 20px;
 }
 
 /*Imagenes-separadas*/
 
-
+.imagenes-separadas img{
+    margin-bottom: 50px;
+    height: 381px; 
+}
 
 /*imagen-arriba*/
 
-.imagen-arriba{
+.upup{
+    margin-bottom: 100px;
+}
 
+.downdown{
+    margin-top: 100px;
 }
 
 .imagen-arriba img{
     height: 500px;
-
 }
 
-/*Blanco*/
-
-.blanco{
-    background-color: white;
-}
