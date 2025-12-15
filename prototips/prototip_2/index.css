@@ -12,6 +12,8 @@ section{
     align-items: center;
     width: 1300px;
     height: 600px;
+    padding-left: 40px;
+    padding-right: 40px;
     display: flex;
     flex-wrap: wrap;
     padding-top: 50px;
@@ -57,7 +59,6 @@ button{
 /*Imagenes-separadas*/
 
 .imagenes-separadas img{
-    margin-bottom: 50px;
     height: 381px; 
 }
 
