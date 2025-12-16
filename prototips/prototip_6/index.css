@@ -1,0 +1,76 @@
+/*body*/
+
+body{
+    margin: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*main*/
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+/*Palabras*/
+
+h1{
+    font-size: 80px;
+}
+
+/*Buttons*/
+
+button{
+    margin-bottom: 100px;
+    padding: 22px 44px;
+    border-radius: 18px;
+    font-size: 26px;
+}
+
+/*Texto-Apartado*/
+
+.texto{
+    width: 1050px;
+    margin-left: 20px;
+}
+
+.texto p{
+    font-size: 30px;
+    padding-right: 260px;
+    color: rgb(79, 78, 78);
+}
+
+
+/*Separacion*/
+
+.around{
+    display: flex;
+    gap: 20px;
+}
+
+/*Container*/
+
+.container{
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+    gap: 150px;
+    border: solid;
+    width: 900px;
+    border-radius: 30px;
+}
+
+.container img{
+    padding-top: 20px;
+    width: 30px;
+}
+
+/*Frame*/
+
+.icon{
+    flex-direction: column;
+}
+
+.icon p{
+    width: 100px;
+    font-size: 20px;
+}
