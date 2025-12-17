@@ -1,0 +1,84 @@
+/*Body*/
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: darkgray;
+    margin: 0px;
+}
+
+/*Types*/
+
+.absolute-eclipse{
+    position: absolute;
+}
+
+.absolute-man{
+    position: absolute;
+    top: 100px;
+}
+
+.absolute-pattern-1{
+    position: absolute;
+}
+
+.absolute-pattern-2{
+    position: absolute;
+}
+
+/*Absolute-images*/
+
+
+
+
+
+/*Relative-container*/
+
+
+
+/*Palabras*/
+
+.container h1{
+    font-size: 88px
+
+}
+
+.container p{
+
+}
+
+.container-page{
+    width: 1440px;
+    height: 926px;
+    background-color: #AB2706;
+}
+
+/*Container*/
+
+.container-words{
+    width: 487px;
+    height: 674px;
+}
+
+.container-image{
+    width: 656px;
+    height: 861px;
+}
+
+/*Button*/
+
+button{
+    background-color: black;
+    color: #fff;
+    margin-bottom: 100px;
+    padding: 12px 44px;
+    border-radius: 18px;
+    font-size: 26px;
+}
+
+/*Aplicante*/
+
+.flex{
+    display: flex;
+}
+
