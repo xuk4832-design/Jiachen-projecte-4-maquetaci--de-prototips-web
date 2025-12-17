@@ -1,0 +1,93 @@
+/*Body*/
+
+body{
+    margin-bottom: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*Imagenes*/
+
+img{
+    width: 316px;
+    height: 402px;
+    border-radius: 20px;
+}
+
+/*Titulo*/
+
+.title h1{
+    margin-left: 230px;
+    margin-right: 700px;
+    font-size: 76px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+/*Galeria*/
+
+.gallery{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 50px   ;
+}
+
+.gallery p{
+    font-size: 20px;
+    color: gray;
+}
+
+.gallery h1{
+    font-size: 40px;
+    color: gray;
+}
+
+/*Containers*/
+
+.container{
+    width: 316px;
+    height: 559px;
+}
+
+.container img{
+    position: absolute;
+}
+
+/*Column*/
+
+.columna{
+    flex-direction: column;
+}
+
+/*words-image*/
+
+.relative{
+    position: relative;
+}
+
+.relative-words{
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-bottom: 14px;
+    top: 280px;
+    border-radius: 20px;
+    background: linear-gradient( 
+    to top,rgba(0, 0, 0, 0.45),
+    transparent
+);
+}
+
+.relative-words h2{
+    color: black;
+    font-size: 20px;
+}
+
+.relative-words p{
+    font-size: 15px;
+    color: black;
+}
+
